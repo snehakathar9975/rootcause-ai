@@ -1,16 +1,46 @@
-# React + Vite
+# RootCause AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### From Bug Report to Verified Fix
 
-Currently, two official plugins are available:
+RootCause AI is an AI-assisted developer debugging workflow designed to trace software bugs from a bug report to evidence, root cause, proposed fix, regression test, and verification.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Problem
 
-## React Compiler
+Debugging often requires developers to manually inspect source code, failed tests, logs, and recent changes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Solution
 
-## Expanding the ESLint configuration
+RootCause AI organizes the debugging workflow into:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Bug Report
+2. Evidence Collection
+3. Root Cause Analysis
+4. Proposed Fix
+5. Regression Test
+6. Verification
+
+## Current MVP
+
+The current MVP demonstrates the complete debugging workflow through a React interface.
+
+## Technology
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Node.js
+- Git/GitHub
+
+## IBM Bob
+
+IBM Bob was used as an AI-powered development assistant during implementation of the RootCause AI MVP, including generating and refining application code and debugging the development workflow.
+
+## Project Structure
+
+```text
+rootcause-ai/
+├── src/
+├── test-project/
+├── package.json
+└── README.md
